@@ -1,0 +1,205 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background-image: url('geordanna-cordero-fields-5NE6mX0WVfQ-unsplash.jpg');
+}
+
+.heading-group {
+  margin:0 0 2em 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+.heading-group h2{
+	color: #25303B;
+	text-align:center;
+	margin:0.5em 0 0 0;
+	font-size:2em;
+	line-height:1;
+	letter-spacing:0.02em;
+
+}
+.subtitle {
+	color: #25303B;
+	font-family:Helvetica, sans-serif;
+	font-weight:300;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:1em;
+	margin:0.5em 0;
+}
+
+.vertical-menu {
+    width: 20%; 
+    float: left;
+    width: 13em;
+    padding: 20px;
+}
+
+.vertical-menu a {
+    background-color:  #eaedee; 
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #dedede; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #b8c5c2; 
+    color: white;
+}
+
+#error h2,h3 {
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0;
+  color: #e60000;
+  text-align: center;
+}
+
+
+ol{
+	list-style-type:none;
+}
+
+
+
+#home h2,h3 {
+  padding: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+#home p {
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: -1px;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+
+div#timeline {
+  width: 80%;
+  margin: 30px auto;
+  position: relative;
+  margin-left: 13em;
+}
+div#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:70px;
+  margin: 0 0 0 -3px;
+  width: 2px;
+  height: 90%;
+  background: rgba(255,255,255,0.2);
+}
+
+div#timeline .content {
+  width: 70%;
+  margin: 0 0 15px 0;
+  position: relative;
+ }
+ 
+div#timeline .content::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+div#timeline .content .inner {
+  width: 30%;
+  float: right;
+  margin: 0 0 5px 0;
+  border-radius: 6px;
+  
+}
+div#timeline .content .inner span.stop {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #25303B;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 3px #25303B;
+  
+}
+div#timeline .content .inner span.stop span {
+  display: block;
+  text-align: center;
+
+}
+div#timeline .content .inner span.stop span.num {
+  font-size: 15px;
+}
+
+div#timeline .content .inner span.stop span.halt {
+  font-size: 16px;
+}
+#timeline #path{
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0;
+  color: #25303B;
+  text-align: center;
+}
+
+div#timeline  .content .inner h2{
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  left: 4px;
+  text-align: left;
+}
+div#timeline .content .inner h2:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+div#timeline .content .inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+
+div#timeline .content:nth-child(1) .inner h2 {
+  background:#87CEFA;
+}
+div#timeline .content:nth-child(1) .inner h2:before {
+  background:#87CEFA;
+}
